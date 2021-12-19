@@ -1,6 +1,7 @@
 import dynamic from "next/dynamic";
 import React from "react";
 import AdsContainer from "../AdsDiv";
+import Popular from "../Popular";
 const Carousel = dynamic(
   () => {
     return import("../Carousel");

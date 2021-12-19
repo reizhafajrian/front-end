@@ -7,7 +7,7 @@ module.exports = {
     config.module.rules.push({
       test: /\.svg(\?v=\d+\.\d+\.\d+)?$/,
       issuer: /\.[jt]sx?$/,
-      use: ["babel-loader", "@svgr/webpack", "url-loader"],
+      use: ["@svgr/webpack"],
     });
 
     return config;
@@ -16,6 +16,11 @@ module.exports = {
     includePaths: [path.join(__dirname, "styles")],
   },
   images: {
-    domains: ["static.femaledaily.com", "image.femaledaily.com"],
+    domains: [
+      "static.femaledaily.com",
+      "image.femaledaily.com",
+      "editorial.femaledaily.com",
+      "cdns.klimg.com",
+    ],
   },
 };

@@ -8,6 +8,12 @@ export default function header() {
       <Head>
         <title>Female Daily</title>
         <link rel="icon" href="/favicon.ico" />
+        <link
+          href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+          rel="stylesheet"
+          integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+          crossorigin="anonymous"
+        ></link>
       </Head>
       <header
         style={{
@@ -84,17 +90,6 @@ export default function header() {
               />
             </div>
           </div>
-          {/* <button
-            style={{
-              backgroundColor: "red",
-              borderStyle: "none",
-              color: "white",
-              width: 170,
-              height: 60,
-            }}
-          >
-            Login/Sign Up
-          </button> */}
           <Button width={170} height={60}>
             Login/Sign Up
           </Button>
@@ -105,39 +100,39 @@ export default function header() {
             display: "flex",
             listStyle: "none",
             justifyContent: "space-around",
-            width: 400,
+
             alignSelf: "center",
             padding: 0,
           }}
         >
           <li>
             <a href="">
-              <h4 style={{ padding: 0, margin: 0 }}>SkinCare</h4>
+              <h4 style={{ padding: 0, margin: "0px 4px" }}>SkinCare</h4>
             </a>
           </li>
           <li>
             <a href="">
-              <h4 style={{ padding: 0, margin: 0 }}>Make Up</h4>
+              <h4 style={{ padding: 0, margin: "0px 4px" }}>Make Up</h4>
             </a>
           </li>
           <li>
             <a href="">
-              <h4 style={{ padding: 0, margin: 0 }}>Body</h4>
+              <h4 style={{ padding: 0, margin: "0px 4px" }}>Body</h4>
             </a>
           </li>{" "}
           <li>
             <a href="">
-              <h4 style={{ padding: 0, margin: 0 }}>Hair</h4>
+              <h4 style={{ padding: 0, margin: "0px 4px" }}>Hair</h4>
             </a>
           </li>
           <li>
             <a href="">
-              <h4 style={{ padding: 0, margin: 0 }}>Fragrance</h4>
+              <h4 style={{ padding: 0, margin: "0px 4px" }}>Fragrance</h4>
             </a>
           </li>
           <li>
             <a href="">
-              <h4 style={{ padding: 0, margin: 0 }}>Nail</h4>
+              <h4 style={{ padding: 0, margin: "0px 4px" }}>Nail</h4>
             </a>
           </li>
         </ul>

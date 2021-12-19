@@ -5,18 +5,12 @@ import Card from "../Card/Card";
 
 export default function index() {
   const state = useSelector((state) => state.data);
-    const data = state.data["editor's choice"];
-
+  const data = state.data["editor's choice"];
 
   return (
-    <div
-      style={{
-        padding: "0px 150px",
-        display: "flex",
-        flexDirection: "column",
-        justifyContent: "center",
-      }}
-    >
+    <div className="container"     style={{
+      marginTop: 10,
+    }}>
       <h1>{Object.keys(state.data)[0]}</h1>
       <h4 style={{ margin: "10px 0px", color: "grey" }}>
         {Object.keys(state.data)[0]}
